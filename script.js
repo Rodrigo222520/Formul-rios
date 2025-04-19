@@ -51,9 +51,44 @@ function validacaoformulario() {
 
 }
 
-    //Validação dos dados
+    
+
+    //Validação dos dados do início do cadastro
     if (nome.value === "") {
         alert("Por favor, preencha seu nome");
         return;
     }
+    if (Datadenascimento.value === "") {
+        alert("Por favor, preencha sua data de nascimento");
+        return;
+    }
+    if (Email.value === "") {
+        alert("Por favor, preencha seu Email");
+        return;
+    }
+    if (Senha.value === "") {
+        alert("Por favor, coloque sua senha");
+        return;
+    }
+    if (Numerodetelefone.value === "") {
+        alert("Por favor, coloque seu número de telefone");
+        return;
+    }
+    if (Genero.value === "") {
+        alert("Por favor, coloque seu gênero");
+        return;
+    }
+    if (CPF.value === "") {
+        alert("Por favor, preencha seu CPF");
+        return;
+    }
+    if (CEP.value === "") {
+        alert("Por favor, preencha seu CEP");
+        return;
+    }
+    if (Cartao.value === "") {
+        alert("Por favor, coloque seu cartão");
+        return;
+    }
+
 
