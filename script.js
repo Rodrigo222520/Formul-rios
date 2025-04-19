@@ -233,3 +233,11 @@ if (IDexclusivodamensagem.value === "") {
 
 //Validação dos dados de Email no processdo de entrega
 
+if (EnderecodeEmaildoremetenteedodestinatario.value === "") {
+    alert("Por favor, coloque o endereço de Email do remtente e do destinatário");
+    return;
+}
+if (EnvelopeSMTP.value === "") {
+    alert("Por favor, coloque seu envelope SMTP");
+    return;
+}
