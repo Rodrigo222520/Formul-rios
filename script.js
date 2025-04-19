@@ -51,7 +51,7 @@ function validacaoformulario() {
 
 }
 
-//Leitura dos dados do início do cadastro
+//Leitura dos dados do início do cadastro:
 
 let Nome = Nome;
 let Datadenascimento = Datadenascimento;
@@ -63,7 +63,7 @@ let CPF = CPF;
 let CEP = CEP;
 let Cartao = Cartao;
 
-//Leitura dos dados das informações profissionais
+//Leitura dos dados das informações profissionais:
 
 let Nomeempresarial = Nomeempresarial;
 let CNPJ = CNPJ;
@@ -72,7 +72,7 @@ let Objetosocial = Objetosocial;
 let Capitalsocial = Capitalsocial;
 let Socios = Socios;
 
-//Leitura dos dados das informações do cartão
+//Leitura dos dados das informações do cartão:
 
 let Nomedocartao = Nomedocartao;
 let Datadevalidade = Datadevalidade;
@@ -81,13 +81,13 @@ let CVV = CVV;
 let Chip = Chip;
 let Senhadocartao = Senhadocartao;
 
-//Leitura dos dados do Email
+//Leitura dos dados do Email:
 
 let Nomedoproprietario = Nomedoproprietario;
 let EnderecodeEmail = EnderecodeEmail;
 let Insiranovamenteasenha = Insiranovamenteasenha;
 
-//Leitura dos dados de Email de mensagens
+//Leitura dos dados de Email de mensagens:
 
 let EnderecodeEmaildoremetente = EnderecodeEmaildoremetente;
 let EnderecodeEmaildetodososdestinatarios = EnderecodeEmaildetodososdestinatarios;
@@ -95,13 +95,13 @@ let Linhadeassuntodamensagem = Linhadeassuntodamensagem;
 let Dataehoraemquemensagemfoienviada = Dataehoraemquemensagemfoienviada;
 let IDexclusivodamensagem = IDexclusivodamensagem;
 
-//Leitura dos dados de Email no processo de entrega
+//Leitura dos dados de Email no processo de entrega:
 
 let EnderecodeEmaildoremetenteedodestinatario = EnderecodeEmaildoremetenteedodestinatario;
 let EnvelopeSMTP = EnvelopeSMTP;
 
 
-//Validação dos dados do início do cadastro
+//Validação dos dados do início do cadastro:
 if (Nome.value === "") {
     alert("Por favor, preencha seu nome");
     return;
@@ -139,4 +139,30 @@ if (Cartao.value === "") {
     return;
 }
 
+//Validação dos dados das informações profissionais
+
+if (Nomeempresarial.value === "") {
+    alert("Por favor, preencha seu nome empresarial");
+    return;
+}
+if (CNPJ.value === "") {
+    alert("Por favor, preencha seu CNPJ");
+    return;
+}
+if (Datadeiniciodasatividades.value === "") {
+    alert("Por favor, preencha sua data de início das atividades");
+    return;
+}
+if (Objetosocial.value === "") {
+    alert("Por favor, coloque seu objeto social");
+    return;
+}
+if (Capitalsocial.value === "") {
+    alert("Por favor, coloque seu capital social");
+    return;
+}
+if (Socios.value === "") {
+    alert("Por favor, coloque seus socios");
+    return;
+}
 
