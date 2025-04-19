@@ -95,6 +95,11 @@ let Linhadeassuntodamensagem = Linhadeassuntodamensagem;
 let Dataehoraemquemensagemfoienviada = Dataehoraemquemensagemfoienviada;
 let IDexclusivodamensagem = IDexclusivodamensagem;
 
+//Leitura dos dados de Email no processo de entrega
+
+let EnderecodeEmaildoremetenteedodestinatario = EnderecodeEmaildoremetenteedodestinatario;
+let EnvelopeSMTP = EnvelopeSMTP;
+
 
 //Validação dos dados do início do cadastro
 if (Nome.value === "") {
