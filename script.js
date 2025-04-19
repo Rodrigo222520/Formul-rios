@@ -51,10 +51,26 @@ function validacaoformulario() {
 
 }
 
+    //Leitura dos dados do início do cadastro
+
+    let Nome = Nome;
+    let Datadenascimento = Datadenascimento;
+    let Email = Email;
+    let Senha = Senha;
+    let Numerodetelefone = Numerodetelefone;
+    let Genero = Genero;
+    let CPF = CPF;
+    let CEP = CEP;
+    let Cartao = Cartao;
+
+    //Leitura dos dados das informações profissionais
+
+    
+
     
 
     //Validação dos dados do início do cadastro
-    if (nome.value === "") {
+    if (Nome.value === "") {
         alert("Por favor, preencha seu nome");
         return;
     }
