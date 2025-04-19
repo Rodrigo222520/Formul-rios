@@ -100,8 +100,10 @@ let IDexclusivodamensagem = IDexclusivodamensagem;
 let EnderecodeEmaildoremetenteedodestinatario = EnderecodeEmaildoremetenteedodestinatario;
 let EnvelopeSMTP = EnvelopeSMTP;
 
+form.addEventListener("submit", (event) => {
+    event.preventDefault();
 
-//Validação dos dados do início do cadastro:
+    //Validação dos dados do início do cadastro:
 if (Nome.value === "") {
     alert("Por favor, preencha seu nome");
     return;
@@ -139,7 +141,7 @@ if (Cartao.value === "") {
     return;
 }
 
-//Validação dos dados das informações profissionais
+//Validação dos dados das informações profissionais:
 
 if (Nomeempresarial.value === "") {
     alert("Por favor, preencha seu nome empresarial");
@@ -166,7 +168,7 @@ if (Socios.value === "") {
     return;
 }
 
-//Validação dos dados das informações do cartão
+//Validação dos dados das informações do cartão:
 
 if (Nomedocartao.value === "") {
     alert("Por favor, coloque o nome do cartão");
@@ -193,7 +195,7 @@ if (Senhadocartao.value === "") {
     return;
 }
 
-//Validação das informações do Email
+//Validação das informações do Email:
 
 if (Nomedoproprietario.value === "") {
     alert("Por favor, preencha o nome do proprietario");
@@ -208,7 +210,7 @@ if (Insiranovamenteasenha.value === "") {
     return;
 }
 
-//Validação dos dados de Email de mensagens
+//Validação dos dados de Email de mensagens:
 
 if (EnderecodeEmaildoremetente.value === "") {
     alert("Por favor, coloque o endereço de Email do remtente");
@@ -231,7 +233,7 @@ if (IDexclusivodamensagem.value === "") {
     return;
 }
 
-//Validação dos dados de Email no processdo de entrega
+//Validação dos dados de Email no processdo de entrega:
 
 if (EnderecodeEmaildoremetenteedodestinatario.value === "") {
     alert("Por favor, coloque o endereço de Email do remtente e do destinatário");
@@ -241,3 +243,8 @@ if (EnvelopeSMTP.value === "") {
     alert("Por favor, coloque seu envelope SMTP");
     return;
 }
+
+//Se todos os campos estiverem corretamente preenchidos, envie o form:
+
+form.submit();
+});
