@@ -208,4 +208,28 @@ if (Insiranovamenteasenha.value === "") {
     return;
 }
 
+//Validação dos dados de Email de mensagens
+
+if (EnderecodeEmaildoremetente.value === "") {
+    alert("Por favor, coloque o endereço de Email do remtente");
+    return;
+}
+if (EnderecodeEmaildetodososdestinatarios.value === "") {
+    alert("Por favor, coloque o endereço de Email de todos os destinatários");
+    return;
+}
+if (Linhadeassuntodamensagem.value === "") {
+    alert("Por favor, preencha sua linha de assunto da mensagemr");
+    return;
+}
+if (Dataehoraemquemensagemfoienviada.value === "") {
+    alert("Por favor, coloque a data e hora em que a mensagem foi enviada");
+    return;
+}
+if (IDexclusivodamensagem.value === "") {
+    alert("Por favor, coloque o ID exclusivo da mensagem ");
+    return;
+}
+
+//Validação dos dados de Email no processdo de entrega
 
