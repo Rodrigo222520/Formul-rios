@@ -166,3 +166,31 @@ if (Socios.value === "") {
     return;
 }
 
+//Validação dos dados das informações do cartão
+
+if (Nomedocartao.value === "") {
+    alert("Por favor, coloque o nome do cartão");
+    return;
+}
+if (Datadevalidade.value === "") {
+    alert("Por favor, preencha a data de validade");
+    return;
+}
+if (Nomedotitular.value === "") {
+    alert("Por favor, preencha seu nome de titular");
+    return;
+}
+if (CVV.value === "") {
+    alert("Por favor, coloque seu CVV");
+    return;
+}
+if (Chip.value === "") {
+    alert("Por favor, coloque seu chip");
+    return;
+}
+if (Senhadocartao.value === "") {
+    alert("Por favor, coloque sua senha do cartão");
+    return;
+}
+
+
