@@ -89,11 +89,11 @@ let Insiranovamenteasenha = Insiranovamenteasenha;
 
 //Leitura dos dados de Email de mensagens
 
-let EnderecodeEmaildoremetente = Nomedocartao;
-let EnderecodeEmaildetodososdestinatarios = Datadevalidade;
-let Linhadeassuntodamensagem = Nomedotitular;
-let Dataehoraemquemensagemfoienviada = CVV;
-let IDexclusivodamensagem = Chip;
+let EnderecodeEmaildoremetente = EnderecodeEmaildoremetente;
+let EnderecodeEmaildetodososdestinatarios = EnderecodeEmaildetodososdestinatarios;
+let Linhadeassuntodamensagem = Linhadeassuntodamensagem;
+let Dataehoraemquemensagemfoienviada = Dataehoraemquemensagemfoienviada;
+let IDexclusivodamensagem = IDexclusivodamensagem;
 
 
 //Validação dos dados do início do cadastro
