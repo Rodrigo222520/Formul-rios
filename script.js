@@ -193,4 +193,19 @@ if (Senhadocartao.value === "") {
     return;
 }
 
+//Validação das informações do Email
+
+if (Nomedoproprietario.value === "") {
+    alert("Por favor, preencha o nome do proprietario");
+    return;
+}
+if (EnderecodeEmail.value === "") {
+    alert("Por favor, coloque seu endereço de Email");
+    return;
+}
+if (Insiranovamenteasenha.value === "") {
+    alert("Por favor, insira novamente a sua senha");
+    return;
+}
+
 
