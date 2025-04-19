@@ -51,65 +51,83 @@ function validacaoformulario() {
 
 }
 
-    //Leitura dos dados do início do cadastro
+//Leitura dos dados do início do cadastro
 
-    let Nome = Nome;
-    let Datadenascimento = Datadenascimento;
-    let Email = Email;
-    let Senha = Senha;
-    let Numerodetelefone = Numerodetelefone;
-    let Genero = Genero;
-    let CPF = CPF;
-    let CEP = CEP;
-    let Cartao = Cartao;
+let Nome = Nome;
+let Datadenascimento = Datadenascimento;
+let Email = Email;
+let Senha = Senha;
+let Numerodetelefone = Numerodetelefone;
+let Genero = Genero;
+let CPF = CPF;
+let CEP = CEP;
+let Cartao = Cartao;
 
-    //Leitura dos dados das informações profissionais
+//Leitura dos dados das informações profissionais
 
-    let Nomeempresarial = Nomeempresarial;
-    let CNPJ = CNPJ;
-    let Datadeiniciodasatividades = Datadeiniciodasatividades;
-    let Objetosocial = Objetosocial;
-    let Capitalsocial = Capitalsocial;
-    let Socios = Socios;
+let Nomeempresarial = Nomeempresarial;
+let CNPJ = CNPJ;
+let Datadeiniciodasatividades = Datadeiniciodasatividades;
+let Objetosocial = Objetosocial;
+let Capitalsocial = Capitalsocial;
+let Socios = Socios;
 
-    
+//Leitura dos dados das informações do cartão
 
-    //Validação dos dados do início do cadastro
-    if (Nome.value === "") {
-        alert("Por favor, preencha seu nome");
-        return;
-    }
-    if (Datadenascimento.value === "") {
-        alert("Por favor, preencha sua data de nascimento");
-        return;
-    }
-    if (Email.value === "") {
-        alert("Por favor, preencha seu Email");
-        return;
-    }
-    if (Senha.value === "") {
-        alert("Por favor, coloque sua senha");
-        return;
-    }
-    if (Numerodetelefone.value === "") {
-        alert("Por favor, coloque seu número de telefone");
-        return;
-    }
-    if (Genero.value === "") {
-        alert("Por favor, coloque seu gênero");
-        return;
-    }
-    if (CPF.value === "") {
-        alert("Por favor, preencha seu CPF");
-        return;
-    }
-    if (CEP.value === "") {
-        alert("Por favor, preencha seu CEP");
-        return;
-    }
-    if (Cartao.value === "") {
-        alert("Por favor, coloque seu cartão");
-        return;
-    }
+let Nomedocartao = Nomedocartao;
+let Datadevalidade = Datadevalidade;
+let Nomedotitular = Nomedotitular;
+let CVV = CVV;
+let Chip = Chip;
+let Senhadocartao = Senhadocartao;
+
+//Leitura dos dados do Email
+
+let Nomedoproprietario = Nomedoproprietario;
+let EnderecodeEmail = EnderecodeEmail;
+let Insiranovamenteasenha = Insiranovamenteasenha;
+
+
+
+
+
+
+//Validação dos dados do início do cadastro
+if (Nome.value === "") {
+    alert("Por favor, preencha seu nome");
+    return;
+}
+if (Datadenascimento.value === "") {
+    alert("Por favor, preencha sua data de nascimento");
+    return;
+}
+if (Email.value === "") {
+    alert("Por favor, preencha seu Email");
+    return;
+}
+if (Senha.value === "") {
+    alert("Por favor, coloque sua senha");
+    return;
+}
+if (Numerodetelefone.value === "") {
+    alert("Por favor, coloque seu número de telefone");
+    return;
+}
+if (Genero.value === "") {
+    alert("Por favor, coloque seu gênero");
+    return;
+}
+if (CPF.value === "") {
+    alert("Por favor, preencha seu CPF");
+    return;
+}
+if (CEP.value === "") {
+    alert("Por favor, preencha seu CEP");
+    return;
+}
+if (Cartao.value === "") {
+    alert("Por favor, coloque seu cartão");
+    return;
+}
 
 
