@@ -65,7 +65,12 @@ function validacaoformulario() {
 
     //Leitura dos dados das informações profissionais
 
-    
+    let Nomeempresarial = Nomeempresarial;
+    let CNPJ = CNPJ;
+    let Datadeiniciodasatividades = Datadeiniciodasatividades;
+    let Objetosocial = Objetosocial;
+    let Capitalsocial = Capitalsocial;
+    let Socios = Socios;
 
     
 
