@@ -87,9 +87,13 @@ let Nomedoproprietario = Nomedoproprietario;
 let EnderecodeEmail = EnderecodeEmail;
 let Insiranovamenteasenha = Insiranovamenteasenha;
 
+//Leitura dos dados de Email de mensagens
 
-
-
+let EnderecodeEmaildoremetente = Nomedocartao;
+let EnderecodeEmaildetodososdestinatarios = Datadevalidade;
+let Linhadeassuntodamensagem = Nomedotitular;
+let Dataehoraemquemensagemfoienviada = CVV;
+let IDexclusivodamensagem = Chip;
 
 
 //Validação dos dados do início do cadastro
